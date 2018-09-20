@@ -14,7 +14,5 @@ int main(int argc, char* argv[])
     std::cout << "Input: " << std::to_string(realv) << "\n";
     std::cout << "Result: " << tempf << "\n";
     
-
-
     return 0;
 }
