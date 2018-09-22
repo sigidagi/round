@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-project(roundtest)
+project(roundas)
 
 add_definitions(-D_GLIBCXX_USE_C99)
 
@@ -17,6 +17,4 @@ set(ROUND_SOURCE
 )
 
 add_executable(${PROJECT_NAME}  ${ROUND_SOURCE})
-
-#set(CMAKE_INSTALL_PREFIX "/usr")
-#install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
