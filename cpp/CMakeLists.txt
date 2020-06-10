@@ -17,6 +17,10 @@ set(ROUND_SOURCE
 )
 
 add_executable(${PROJECT_NAME}  ${ROUND_SOURCE})
-target_link_libraries(${PROJECT_NAME} testas_lib)
+target_link_libraries(${PROJECT_NAME} 
+    testas_lib
+    pthread
+    dl
+    )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)

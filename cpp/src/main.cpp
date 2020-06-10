@@ -1,6 +1,7 @@
 #include <iostream>
 #include <limits>
 #include <string>
+#include "test_lib.h"
 
 int main(int argc, char* argv[])
 {
@@ -13,6 +14,8 @@ int main(int argc, char* argv[])
     
     std::cout << "Input: " << std::to_string(realv) << "\n";
     std::cout << "Result: " << tempf << "\n";
-    
+
+    print_hello();
+
     return 0;
 }
