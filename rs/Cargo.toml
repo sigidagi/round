@@ -1,0 +1,9 @@
+[package]
+name = "testas_lib"
+version = "0.1.0"
+authors = ["Sigitas Dagilis <sigis@seluxit.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
